@@ -33,6 +33,7 @@ angular
     }];
 
     $scope.addTodo = addTodo;
+    $scope.deleteTodo = deleteTodo;
 
     function addTodo(todo) {
       if (!checkExist(todo) && checkNotEmpty(todo)) {
@@ -57,6 +58,13 @@ angular
         }
       }
       return false;
+    }
+
+    function deleteTodo (todo) {
+      // body...
+      $scope.todos = $scope.todos.filter(function(obj) {
+        return obj.name !== todo.name;
+      })
     }
 
 });

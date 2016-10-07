@@ -57,7 +57,7 @@
           <ion-item ng-repeat="todo in todos" class="item item-icon-left item-icon-right">
             <i class="icon ion-ios-list-outline"></i>
             {{ todo.name }}
-            <i class="icon ion-trash-b icon-right"></i>
+            <i class="icon ion-trash-b icon-right" ng-click="deleteTodo(todo)"></i>
           </ion-item>
         </ion-list>
 
