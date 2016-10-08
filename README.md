@@ -21,6 +21,12 @@ $ npm install -g ionic
 $ npm install -g cordova
 ```
 
+- Install dependencies
+```sh
+$ npm install
+$ bower install
+```
+
 - To test in a web browser you run the command:
 ```sh
 $ ionic serve
