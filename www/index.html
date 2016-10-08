@@ -49,8 +49,8 @@
           ng-click="addTodo(todo)">
           Add todo</button>
         </div>
-        <p style="color:red" ng-show="empty">* Please enter a valid todo task name</p>
-        <p style="color:red" ng-show="exist">* Duplicated value not authorised</p> 
+        <p style="color:red" ng-show="empty">* Empty values not authorised</p>
+        <p style="color:red" ng-show="duplicated">* Duplicated values not authorised</p> 
       </div>
 
         <ion-list>
