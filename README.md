@@ -20,3 +20,23 @@ A todo lis application to get started with ionic.
 $ npm install -g ionic
 $ npm install -g cordova
 ```
+
+- To test in a web browser you run the command:
+```sh
+$ ionic serve
+```
+
+- To test in an android device:
+```sh
+$ ionic platform add android
+$ ionic build android
+$ ionic run android
+```
+
+
+- To test in an iOS device:
+```sh
+$ ionic platform add ios
+$ ionic build ios
+$ ionic run ios
+```
